@@ -1,0 +1,332 @@
+body{
+    background-color:whitesmoke;
+}
+.nav-item{
+color:aqua;
+    font-size:1.5em;
+    margin-right:2em;
+}
+
+.navbar{
+    background:rgba(8, 36, 69, 0.98);
+    margin-bottom: inherit;
+    
+}
+
+
+#Anshika{
+    letter-spacing:2px;
+   
+}
+.dept{
+    padding-top:0.55em;
+}
+.m1{
+    font-size:1em;
+    background-color: #dbd9ce;
+    color:#082445;
+    overflow:hidden;
+    pointer-events: visible;
+
+}
+/*.carousel-inner{
+    background-color: #eb520e;
+}*/
+.carousel-item{
+      background-color: rgba(51, 7, 111, 0.67);
+}
+.carousel-item img{
+    width:100%;
+    height:40vw;
+   
+        background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+   opacity:0.7;
+filter: contrast(0.5);
+    overflow:none;
+
+}
+.carousel-indicators{
+    margin-left:18vw;
+    margin-bottom:5vw;
+}
+.carousel-control-next-icon,.carousel-control-prev-icon{
+    height:30px;
+    width:30px;
+    overflow:none;
+}
+.carousel-caption h1,h3{
+
+    font-size: 2vw;
+    letter-spacing:0.2em;
+       color:#15131d;
+    overflow:hidden;
+    border-right: #082445;
+    white-space: nowrap;
+    margin:0 auto;
+    animation:typing 3.5s steps(40,end),blink-caret .8s step-end infinite;
+}
+@keyframes typing{
+    from{ width: 0}
+    to { width: 100% }
+}
+@keyframes blink-caret {
+    from,to { border-color: transparent }
+    50% { border-color: #082445;}
+}
+.capt h1{
+    font-size:5vw;;
+   /* font-family:sans-serif;*/
+    font-weight: bold;
+    margin-bottom:0vw;
+    color:#082445;
+    text-align: center;
+        overflow:hidden;
+ 
+    white-space: nowrap;
+    margin:0 0 -0em -1.5em;
+    animation:typing 4.5s steps(40,end),blinking-cursor .5s step-end infinite;
+    
+}
+
+.carousel-caption{
+    margin-bottom:10vw;
+ overflow:none;
+      
+}
+
+
+
+
+
+
+
+
+
+
+
+.mrq{
+    color:red;
+    font-size:2em;
+    margin-top: -5em;
+    z-index=-1;
+    
+}
+
+
+
+
+
+
+
+.top{
+    background-image: url(cover1.jpg);
+    display: table;
+    width:100%;
+    margin-bottom:2em;
+
+}
+	
+		.c1{
+			font-size:2vw;
+			color:white;
+			font-weight: bold;
+		
+		}
+		.c2{
+			color:white;
+			font-size: 1.5vw;
+			margin-left: 25px;
+            padding-bottom: 0.5em;
+		}
+		.break{
+			float:top;
+			
+		}
+		.follow{
+            font-size: 2vw;
+			color:white;
+
+			font-weight: bold;
+			
+		}
+		
+		.fa{
+			padding:0.7em;
+			font-size: 1.8vw;
+			width:4vw;
+			text-align: center;
+			text-decoration: none;
+			margin: 5px 2px;
+			border-radius: 50%;
+		}
+		.fa:hover{
+			opacity: 0.5;
+		}
+		.fa-facebook{
+			background: #3B5998;
+			color: white;
+		}
+		
+		.fa-youtube{
+			background: #bb0000;
+			color:white;
+		}
+		.fa-instagram{
+			background: #125688;
+			color: white;
+		}
+		
+		#meee{
+			margin-left:100px;
+		}
+		.fa-twitter{
+			background: #55ACEE;
+			color: white;
+		}
+		
+
+		.break{
+			display: table-cell;
+			padding: 16px;
+			margin-left: 50px;
+		}
+		.try{
+			margin-right:75px;
+            margin-top: 2em;
+            padding-left: 3em;
+		}
+
+
+
+
+
+
+
+
+
+
+.header {
+  position: fixed;
+  top: 0;
+  z-index:1;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+.progress-container {
+  width: 100%;
+    height:1px;
+    
+  background: #ccc;
+}
+
+.progress-bar {
+  height: 8px;
+  background: #4caf50;
+  width: 0%;
+}
+
+.content {
+  margin: 5em auto 0 auto;
+  width: 90%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.dept h1{
+    color:#082245;
+    font-size:2.5vw;
+    font-weight:bold;
+    overflow: hidden;
+    text-align: center;
+     border-right: .15em #082445;
+    white-space: nowrap;
+margin-top:3em;
+
+    animation:typing 2.5s steps(30,end),blink-caret .8s step-end infinite;
+}
+
+.anshika{
+  float:left;
+  width:25%;
+       margin: 10vw -3.5vw 7.5vw 3.5vw;
+    position:relative;
+    
+}
+
+.anshika img{
+    width:10vw;
+    height:10vw;
+    overflow:hidden;
+}
+
+.text{
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+
+.anshika:hover .a1{
+    opacity:0.2;
+}
+.anshika:hover .text{
+bottom:1;
+    height:70%;
+    
+}
+.text h2{
+    color: #d9e3d7;
+    font-family: sans-serif;
+    letter-spacing: 0.3em;
+    font-size:1.7vw;
+    font-weight: bold;
+}
+
+
+
+
+.ans img{
+  width:7vw;
+    height:7vw;
+    margin-bottom:-1.5em;
+      border-radius:50%;
+}
+
+
+
+
+
+
+
+
+.deptimg{
+   background: url("../image/back.png") no-repeat center center fixed;
+  /*  background-color: aqua;*/
+    width:100%;
+    overflow:none;
+    height:50vw;
+    margin-top:-3em;
+}
