@@ -1,8 +1,4 @@
-<%-- 
-    Document   : index
-    Created on : 27 Mar, 2019, 12:11:41 PM
-    Author     : Aman Deep
---%>
+
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
