@@ -1,10 +1,4 @@
-<%-- 
-    Document   : index
-    Created on : 27 Mar, 2019, 12:11:41 PM
-    Author     : Aman Deep
---%>
 
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -31,7 +25,7 @@
     <img src="image/logo.jpg">
     </div>
      <div class="col-sm-10 ans">
-         <div class="capt"><h1>Teach For Technocrats</h1></div>
+         <div class="capt"><h1>Tech Edu Council</h1></div>
      </div>
     </div>
 <nav class="navbar navbar-expand-md navbar-dark sticky-top">  
@@ -48,37 +42,31 @@
     </li>  
      <li class="nav-item" >  
 
-    <a  class="nav-link" href="#">Notification</a>  
+    <a  class="nav-link" href="#">Notification <span class="glyphicon glyphicon-bell"></span></a>  
     </li>
     <li class="nav-item " >  
 
-    <a  class="nav-link" href="#">About Us</a>  
+        <a  class="nav-link" href="#">About Us <span class="glyphicon glyphicon-flag"></span></a>  
     </li>  
 
-      <li class="nav-item" >  
-<div class="dropdown dept">
-<a  class="nav-link" data-toggle="dropdown">Department<span class="caret"></span></a>  
-      <ul class="dropdown-menu m1">
-      <li><a href="#41">Department 1</a></li>
-       <li><a href="#42">Department 2</a></li>
-          <li><a href="#43">Department 3</a></li>
-        <li><a href="#44">Department 4</a></li>
-            <li><a href="#4">Department 5</a></li>
-      </ul>
-      </div>
+      
+      <li class="nav-item " >  
+
+    <a  class="nav-link" href="#4">Department <span class="glyphicon glyphicon-circle-arrow-down"></span></a>  
+    </li>  
+    
+    <li class="nav-item" >  
+
+    <a  class="nav-link" href="#">Alumni <span class="glyphicon glyphicon-king"></span></a>  
     </li>  
     <li class="nav-item" >  
 
-    <a  class="nav-link" href="#">Alumni</a>  
-    </li>  
-    <li class="nav-item" >  
-
-    <a  class="nav-link" href="#5">Connect us  <span class="glyphicon glyphicon-earphone	
+    <a  class="nav-link" href="#5">Contact us  <span class="glyphicon glyphicon-earphone	
                 "></span></a>  
     </li>  
     <li class="nav-item" >  
 
-    <a  class="nav-link" href="login.jsp">Admin Login</a>  
+    <a  class="nav-link" href="login.jsp">Admin <span class="glyphicon glyphicon-user"></span></a>  
     </li>  
     </ul>  
  </div></div></nav> 
@@ -162,13 +150,13 @@ maybe we should teach the way they learn”</h1><br/>
  <div class="col-sm-3 anshika">
     <img src="image/maths.png" alt="mathematics" class="a1">
      <div class="text" id="41">
-         <h2><a href="#">Engineering Mathematics</a></h2>
+         <h2><a href="#" style="color: #d9e3d7">Engineering Mathematics</a></h2>
      </div>
     </div>
      <div class="col-sm-3 anshika">
     <img src="image/c.png" class="a1">
    <div class="text" id="42">
-       <h2><a href="www.google.com">Concept of C programming</a></h2>
+       <h2><a href="www.google.com" style="color: #d9e3d7">Concept of C programming</a></h2>
      </div></div>
      <div class="col-sm-3 anshika" >
     <img src="image/electrical.png"  class="a1">
@@ -226,6 +214,3 @@ maybe we should teach the way they learn”</h1><br/>
     
    
 </body>
-
-
-
