@@ -66,7 +66,7 @@
     </li>  
     <li class="nav-item" >  
 
-    <a  class="nav-link" href="login.jsp">Admin <span class="glyphicon glyphicon-user"></span></a>  
+    <a  class="nav-link" href="login.jsp">Admin Login<span class="glyphicon glyphicon-user"></span></a>  
     </li>  
     </ul>  
  </div></div></nav> 
